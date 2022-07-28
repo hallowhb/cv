@@ -1,4 +1,10 @@
-body{background-color: #EAF6F6;}
+body{
+
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
+  color: white;
+
+}
 
 hr{
 
@@ -10,11 +16,42 @@ width: 5%;
 }
 
 H1{
-  color: #66BFBF;
+  color: white;
 }
 H3{
-  color: #66BFBF;
+  color: white;
 }
 H2{
   color: #66BFBF;
 }
+
+
+/* NOTE: HYPERLINKS */
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration:underline;
+  font-weight:bold;
+}
+
+a:visited {
+  color: YELLOW;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight:bold;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+
+}
+
+a:active {
+  color: PINK;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight:bold;
+}
+/* NOTE: HYPERLINKS */
